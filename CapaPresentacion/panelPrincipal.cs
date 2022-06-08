@@ -78,7 +78,7 @@ namespace CapaPresentacion
 
         private void btnSGR_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<InventarioCIS>();
+            AbrirFormulario<InventarioSGR>();
         }
     }
 }
