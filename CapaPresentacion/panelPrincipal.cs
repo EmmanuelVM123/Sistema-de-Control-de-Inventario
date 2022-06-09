@@ -74,6 +74,7 @@ namespace CapaPresentacion
         private void btnInventarioAreas_Click(object sender, EventArgs e)
         {
             MostrarSubMenu(subMenu);
+            AbrirFormulario<PanelSubMaestro>();
         }
 
         private void btnSGR_Click(object sender, EventArgs e)

@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(panelPrincipal));
             this.pnlLateral = new System.Windows.Forms.Panel();
-            this.panelFormularios = new System.Windows.Forms.Panel();
             this.PanelMenuLateral = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
@@ -50,6 +49,7 @@
             this.btnInventarioAreas = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelFormularios = new System.Windows.Forms.Panel();
             this.pnlLateral.SuspendLayout();
             this.PanelMenuLateral.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -68,14 +68,6 @@
             this.pnlLateral.Name = "pnlLateral";
             this.pnlLateral.Size = new System.Drawing.Size(250, 749);
             this.pnlLateral.TabIndex = 1;
-            // 
-            // panelFormularios
-            // 
-            this.panelFormularios.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelFormularios.Location = new System.Drawing.Point(250, 0);
-            this.panelFormularios.Name = "panelFormularios";
-            this.panelFormularios.Size = new System.Drawing.Size(950, 749);
-            this.panelFormularios.TabIndex = 2;
             // 
             // PanelMenuLateral
             // 
@@ -341,6 +333,14 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // panelFormularios
+            // 
+            this.panelFormularios.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFormularios.Location = new System.Drawing.Point(250, 0);
+            this.panelFormularios.Name = "panelFormularios";
+            this.panelFormularios.Size = new System.Drawing.Size(950, 749);
+            this.panelFormularios.TabIndex = 2;
+            // 
             // panelPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -350,7 +350,9 @@
             this.Controls.Add(this.panelFormularios);
             this.Controls.Add(this.pnlLateral);
             this.Name = "panelPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "panelPrincipal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.panelPrincipal_Load);
             this.pnlLateral.ResumeLayout(false);
             this.PanelMenuLateral.ResumeLayout(false);
